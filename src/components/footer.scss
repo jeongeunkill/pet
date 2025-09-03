@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    padding: 100px 0;
+    background:orangered;
+    .footerInner{
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+        ul{
+            display: flex;
+            li{margin-right: 20px;
+                a{ color: #c3c3c3; font-size: 14px;}
+            }
+        }
+        h2{
+            color: #fff
+        }
+        p{
+            font-size: 14px;
+            color: #fff;
+            margin-top:20px;
+        }
+    }
+}
